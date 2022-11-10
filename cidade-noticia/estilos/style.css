@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/*Configurações Gerais*/
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #fff url('../imagens/fundo.png') repeat-x;
+}
+
+/*Configuração de cabeçalho*/
+
+#container-topo {
+    width: 750px;
+    margin: 0 auto;
+}
+
+#topo {
+    height: 150px;
+    background: url('../imagens/detalhe-topo.png') no-repeat top right;
+    padding-top: 25px;
+}
+
+.logo {
+    width: 152px;
+    height: 66px;
+    background: url('../imagens/logo.png') no-repeat center;
+    text-indent: -3000px;
+}
