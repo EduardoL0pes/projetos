@@ -2,6 +2,11 @@
 
 /*Configurações Gerais*/
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background: #fff url('../imagens/fundo.png') repeat-x;
@@ -9,16 +14,15 @@ body {
 
 /*Configuração de cabeçalho*/
 
-#container-topo {
+#container {
     width: 750px;
-    margin: 0 auto;
-    
+    margin: 0 auto;  
 }
 
 #topo {
-    height: 163px;
+    height: 166px;
     background: url('../imagens/detalhe-topo.png') no-repeat top right;
-    padding-top: 10px;
+    padding-top: 15px;
 }
 
 .logo {
@@ -28,6 +32,8 @@ body {
     text-indent: -3000px;
     /* Se coloca uma imagem com o titulo e logo acima o titulo escrito, para que os leitores de tela consiga ler, pois leitores de tela não leem imagem, analisar se tem outras opções de acessibilidade*/
 }
+
+/* Configuração de navegação */
 
 ul {
     margin: 0;
@@ -39,7 +45,7 @@ ul {
 #topo ul li {
     background: #b10333;
     float: left;
-    margin-top: 5px;
+    margin-top: 45px;
 }
 
 #topo ul a {
@@ -68,4 +74,78 @@ body.fotos #navegacao a#fotos
     color: #fff;
     background: #de003e;
     cursor: text;
+}
+
+/* Configuração layout de três colunas */
+
+#conteudo {
+    margin-top: 60px;
+    background: #f5f5f5;
+}
+
+#lateral {
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
+#primario {
+    background: blue;
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+
+#uma-coluna #primario {
+    width: 750px;
+    margin: 0 0 20px 0;
+}
+
+#duas-colunas #primario {
+    width: 555px;
+}
+
+
+#secundario{
+    background: green;
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+
+/* Configuração Nav-lateral */
+
+.caixa {
+    margin: 10px 0;
+    padding: 5px;
+    background: #f3f3f3 url('../imagens/fundo-caixa.png');
+}
+
+.caixa h2 {
+    font-size: 1.1em;
+    background-color: #294c71;
+    color: #fff;
+    padding: 5px;
+    margin: -5px;
+}
+
+.caixa-conteudo {
+    background-color: #fff;
+    padding: 5px;
+    margin-top: 10px
+}
+
+/* Confuração Rodapé */
+
+#container-rodape {
+    background-color: #294c71;
+    padding: 20px;
+}
+
+.rodape {
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    width: 750px;
 }
