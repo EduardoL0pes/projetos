@@ -12,12 +12,13 @@ body {
 #container-topo {
     width: 750px;
     margin: 0 auto;
+    
 }
 
 #topo {
-    height: 150px;
+    height: 163px;
     background: url('../imagens/detalhe-topo.png') no-repeat top right;
-    padding-top: 25px;
+    padding-top: 10px;
 }
 
 .logo {
@@ -25,4 +26,46 @@ body {
     height: 66px;
     background: url('../imagens/logo.png') no-repeat center;
     text-indent: -3000px;
+    /* Se coloca uma imagem com o titulo e logo acima o titulo escrito, para que os leitores de tela consiga ler, pois leitores de tela não leem imagem, analisar se tem outras opções de acessibilidade*/
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: bold;
+}
+
+#topo ul li {
+    background: #b10333;
+    float: left;
+    margin-top: 5px;
+}
+
+#topo ul a {
+    display: block;
+    float: left;
+    padding: 0.5em 1.1em;
+    line-height: 1.5em;
+    color: white;
+    text-decoration: none;
+    background: url('../imagens/divisor.png') no-repeat left center;
+}
+
+#topo ul .primeiro a {
+    background: none;
+}
+
+#topo ul a:hover {
+    color: #69001d;
+}
+
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil, 
+body.internacional #navegacao a#internacional,
+body.fotos #navegacao a#fotos
+{
+    color: #fff;
+    background: #de003e;
+    cursor: text;
 }
