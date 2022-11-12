@@ -30,7 +30,7 @@ body {
     height: 66px;
     background: url('../imagens/logo.png') no-repeat center;
     text-indent: -3000px;
-    /* Se coloca uma imagem com o titulo e logo acima o titulo escrito, para que os leitores de tela consiga ler, pois leitores de tela não leem imagem, analisar se tem outras opções de acessibilidade*/
+    /*OBS: para que leitores de tela consiga ler o titulo*/
 }
 
 /* Configuração de navegação */
