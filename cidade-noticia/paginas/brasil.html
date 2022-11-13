@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../estilos/style.css">
+    <link rel="stylesheet" href="../estilos/brasil.css">
     <title>Notícia Cidade</title>
 </head>
-<body class="brasil">
+<body id="duas-colunas" class="brasil">
     <div id="container">
         <div id="topo">
             <h1 class="logo">Notícias Cidade</h1>
@@ -22,5 +23,93 @@
             </ul>
         </div>
     </div>
+    <div id="conteudo"> <!-- Início conteúdo-->
+
+        <div id="primario"> <!-- Conteúdo-destaque -->
+            <div class="caixa destaque">
+                <h2>Destaque</h2>
+                <div class="caixa-conteudo">
+                    <h3>Nova Legislação</h3>
+                    <img class="imagem-principal" src="../imagens/taxi.jpg" width="100%" alt="taxi">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, voluptates.</p>
+                    <a href="#">Leia Mais!</a>
+                </div>
+            </div>
+
+            <div class="caixa"> 
+                <h2>Mundo</h2> <!-- Novas-tecnologias -->
+                <div class="caixa-conteudo">
+                  <ul id="lista-destaque">
+                    <li>
+                        <a href="#">
+                            <img src="../imagens/tecnologia.jpg" alt="tecnologia" width="80">
+                            <h3>Novas Tecnologias</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <img src="../imagens/tecnologia.jpg" alt="tecnologia" width="80">
+                            <h3>Novas Tecnologias</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <img src="../imagens/tecnologia.jpg" alt="tecnologia" width="80">
+                            <h3>Novas Tecnologias</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                        </a>
+                    </li>
+                  </ul>
+                </div> <!-- Fim /Novas-tecnologias -->
+            </div>
+        </div> <!-- Fim /Conteúdo-destaque -->
+
+        <div id="lateral"> <!-- Início nav-lateral -->
+            <div class="caixa altura">
+                <h2>Entrevistas</h2>
+                <div class="caixa-conteudo">
+                    <ul>
+                        <li><a href="#">José Almeida</a></li>
+                        <li><a href="#">Felipe Silva</a></li>
+                        <li><a href="#">Renato Rodrigues</a></li>
+                        <li><a href="#">Abelardo Silva</a></li>
+                        <li><a href="#">André Carlos</a></li>
+                        <li><a href="#">Márcio Mellos</a></li>
+                        <li><a href="#">João Pedro</a></li>
+                        <li><a href="#">Fernando Weiss</a></li>
+                    </ul>
+                </div>
+
+                <div id="lateral2"> <!-- Início formulário -->                  
+                        <div class="caixa2">
+                            <h2>News</h2>
+                            <div class="caixa-conteudo">
+                                <form action="cadastro.php" method="get">
+                                    <div style="padding: 3px;">
+                                        <label for="email">E-mail:</label>
+                                        <input type="email" name="email" id="email" placeholder="Digite seu E-mail">
+                                        <input type="submit" value="Cadastrar">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>     
+                </div> <!-- Fim /formulário -->
+                
+            </div>
+        </div> <!-- Fim /nav-lateral -->
+
+    </div> <!-- Fim /conteúdo -->
+
+</div> <!-- Fim /container -->
+
+<div id="container-rodape" style="clear: both;"> <!-- Início rodapé-->
+    <div class="rodape">
+        &copy; copyright 2000-2022 todos os direitos reservados.
+    </div>
+</div> <!-- Fim rodapé-->
 </body>
 </html>
