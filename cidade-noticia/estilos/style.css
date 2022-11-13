@@ -79,8 +79,7 @@ body.fotos #navegacao a#fotos
 /* Configuração layout de três colunas */
 
 #conteudo {
-    margin-top: 60px;
-    background: #f5f5f5;
+    margin-top: 60px;   
 }
 
 #lateral {
@@ -134,6 +133,61 @@ body.fotos #navegacao a#fotos
     background-color: #fff;
     padding: 5px;
     margin-top: 10px
+}
+
+/* Configuração nav-Lateral2 */
+
+#lateral2 {
+    width: 180px;
+    margin: 0 0 20px 750px;
+    position: relative;
+    top: 365px;
+    right: 750px;
+}
+
+/* Configuração Formulário */
+
+label {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 3px;
+    cursor: pointer;
+}
+
+input[type="email"] {
+    display: block;
+    width: 120px;
+    padding: 3px;
+    margin: 2px 1px;
+}
+
+input[type="submit"] {
+    background-color: #b10333;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #870529;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0px 2px;
+    cursor: pointer;
+}
+
+/* Configuração lista Nav-lateral */
+
+#lateral ul a {
+    display: block;
+    text-decoration: none;
+    font-size: 0.9em;
+    padding: 3px;
+    color: #000;
+    line-height: 30px;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover {
+    background: url('../imagens/marcador.png') no-repeat left center;
+    padding-left: 20px;
+    color: #a1a1a1;
 }
 
 /* Confuração Rodapé */
