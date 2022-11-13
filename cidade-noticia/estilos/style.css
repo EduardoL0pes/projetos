@@ -88,13 +88,34 @@ body.fotos #navegacao a#fotos
     margin: 0 0 20px -750px;
 }
 
+/* Configuração conteúdo-destaque */
+
 #primario {
-    background: blue;
     width: 270px;
     float: left;
     margin: 0 0 20px 195px;
 }
 
+img.imagem-principal {
+    border: 3px solid #dfdfdf;
+    width: 98%;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    display: inline;
+    padding: 3px;
+}
+
+.destaque h3 {
+    background-color: #b10333;
+    color: white;
+}
+
+.entrevista h3 {
+    background-color: #de003e;
+}
 
 #uma-coluna #primario {
     width: 750px;
@@ -105,9 +126,7 @@ body.fotos #navegacao a#fotos
     width: 555px;
 }
 
-
 #secundario{
-    background: green;
     width: 270px;
     float: left;
     margin: 0 0 20px 15px;
