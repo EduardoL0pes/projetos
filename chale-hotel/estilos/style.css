@@ -86,3 +86,34 @@ a.reserva {
     padding: 5px 10px;
 }
 
+#menu {
+    margin-top: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul#navegacao {
+    float: left;
+}
+
+ul#navegacao a {
+    text-transform: uppercase;
+    line-height: 30px;
+    font-size: 0.9em;
+    padding: 5px;
+    color: #6e672c;
+    letter-spacing: 1px;
+    /*display: block;*/
+}
+
+ul#navegacao a:hover {
+    background: #fdf6be;
+}
+
+img.depoimento {
+    float: right;
+    width: 226px;
+    height: 164px;
+}
